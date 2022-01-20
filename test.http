@@ -1,0 +1,9 @@
+// Shorten URL
+POST http://localhost:3030 HTTP/1.1
+Content-Type: application/json
+{
+    "url": "https://www.linkedin.com/in/juddbaguio"
+}
+
+// Redirect URL
+# GET http://localhost:3030 HTTP/1.1
